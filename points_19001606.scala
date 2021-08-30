@@ -13,6 +13,6 @@ case class Point(a:Int,b:Int){
   def y:Int=b
   def +(p:Point)=Point(this.x+p.x,this.y+p.y)
   def move(dx:Int,dy:Int)=Point(this.x+dx,this.y+dy)
-  def distance(p:Point)=Point(this.x-p.x,this.y-p.y)
+  def distance(p:Point)=math.sqrt((this.x-p.x)*(this.x-p.x)+(this.y-p.y)*(this.y-p.y))
   def invert=Point(this.y,this.x)
 }
