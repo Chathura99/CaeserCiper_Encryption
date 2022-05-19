@@ -1,4 +1,4 @@
-# Scala_Case_Classes
+### Scala_Case_Classes + Lambda Functions
 
 **CaeserCiper** small program for encrypt and decrypt messages
 
